@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Escola de Vôlei para todas as idades e níveis. Participe das turmas e desenvolva suas habilidades esportivas.">
+  <title>Vôlei Sem Limite</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header>
+    <div class="logo">🏐 Vôlei sem Limite</div>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#turmas">Horários</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="spacer"></div>
+
+  <section class="hero">
+    <div class="logo">🏐 Vôlei sem Limite</div>
+    <h1>Descubra sua paixão pelo vôlei!</h1>
+    <p>Aulas para todas as idades e níveis — Comece hoje mesmo.</p>
+    <a href="#contato" class="btn-primary">Matricule-se Já</a>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre a Escola</h2>
+    <p>
+      Com mais de 10 anos de experiência, a Escola Impacto Vôlei oferece um ambiente acolhedor, estruturado e com treinadores qualificados para todas as idades e níveis.
+    </p>
+  </section>
+
+  <section id="turmas">
+    <h2>Turmas e Horários</h2>
+    <ul>
+      <li>🏐 Iniciantes — Terças e Quintas — 18h às 19h30</li>
+      <li>🏐 Intermediário — Segundas e Quartas — 19h às 20h30</li>
+      <li>🏐 Avançado — Sábados — 9h às 12h</li>
+    </ul>
+  </section>
+
+  <section id="contato">
+    <h2>Entre em Contato</h2>
+    <form id="cadastro-form" aria-label="Formulário de matrícula">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Nome do aluno" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Email do aluno" required />
+
+      <label for="idade">Idade:</label>
+      <input type="number" id="idade" name="idade" placeholder="Idade" required />
+
+      <label for="turma">Turma:</label>
+      <input type="text" id="turma" name="turma" placeholder="Ex: Iniciantes" required />
+
+      <button type="submit" class="btn">Cadastrar Aluno</button>
+      <p id="resposta" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Vôlei sem Limite. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
